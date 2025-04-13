@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Transport",
+    "description": "Transport provided all across India",
+    "icon": "fas fa-truck"
+  },
+  {
+    "title": "Certified",
+    "description": "Light weight and fast loading speed.",
+    "icon": "fas  fa-check-square"
+  },
+  {
+    "title": "Github",
+    "description": "Please fork the Github repository and contribute to this theme!",
+    "icon": "icon-github",
+    "link": "https://github.com/opera7133/tella"
+  }
+]
