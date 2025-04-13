@@ -1,5 +1,5 @@
 publishDir: docs
-baseURL: ""
+baseURL: "hindustancementpipe.github.io"
 title: "HCP"
 author: "Shaimak Reddy"
 languageCode: "en"
@@ -65,7 +65,7 @@ menu:
       url: "/"
       weight: 1
 
-    - name: "Whatsapp"
+    - name: "Github"
       url: "https://github.com/opera7133/tella"
       pre: "<i class='icon-github text-2xl'></i>"
       weight: 2
