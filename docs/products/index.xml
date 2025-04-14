@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Products on HCP</title>
-    <link>//localhost:1313/products/</link>
+    <link>https://hindustancementpipe.github.io/products/</link>
     <description>Recent content in Products on HCP</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Tue, 23 Jun 2020 12:33:45 +1000</lastBuildDate>
-    <atom:link href="//localhost:1313/products/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://hindustancementpipe.github.io/products/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Example Product</title>
-      <link>//localhost:1313/products/example-copy/</link>
+      <link>https://hindustancementpipe.github.io/products/example-copy/</link>
       <pubDate>Tue, 23 Jun 2020 12:33:45 +1000</pubDate>
-      <guid>//localhost:1313/products/example-copy/</guid>
+      <guid>https://hindustancementpipe.github.io/products/example-copy/</guid>
       <description></description>
     </item>
     <item>
       <title>Example Product</title>
-      <link>//localhost:1313/products/example/</link>
+      <link>https://hindustancementpipe.github.io/products/example/</link>
       <pubDate>Tue, 23 Jun 2020 12:33:45 +1000</pubDate>
-      <guid>//localhost:1313/products/example/</guid>
+      <guid>https://hindustancementpipe.github.io/products/example/</guid>
       <description></description>
     </item>
     <item>
       <title>Example Product</title>
-      <link>//localhost:1313/products/two/</link>
+      <link>https://hindustancementpipe.github.io/products/two/</link>
       <pubDate>Tue, 23 Jun 2020 12:33:45 +1000</pubDate>
-      <guid>//localhost:1313/products/two/</guid>
+      <guid>https://hindustancementpipe.github.io/products/two/</guid>
       <description></description>
     </item>
   </channel>
