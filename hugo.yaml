@@ -67,8 +67,8 @@ menu:
       url: "/"
       weight: 1
 
-    - name: "Whatsapp"
-      url: "https://wa.me/919246363852"
-      pre: "<i class='fab fa-whatsapp text-2xl'></i>"
-      weight: 2
+#    - name: "Whatsapp"
+#      url: "https://wa.me/919246363852"
+#      pre: "<i class='fab fa-whatsapp text-2xl'></i>"
+#      weight: 2
 
