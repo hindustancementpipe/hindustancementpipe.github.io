@@ -19,7 +19,7 @@ params:
 
   logo:
     main: "img/logo/logo.svg"
-    alt: "Tella Logo"
+    alt: "Hindustan Cement Pipe Logo"
     size: "h-14"
     text: "Hindustan Cement Pipe Co."
 
@@ -30,12 +30,14 @@ params:
     fontawesome: true
 
   homepage_meta_tags:
-    meta_description: "A Hugo Theme for OSSProject, Companies, Organization..."
-    meta_og_title: "Tella"
+    meta_description: "Leading manufacturer of high-quality RCC pipes for infrastructure and drainage solutions."
+    meta_og_title: "Hindustan Cement Pipe Co."
     meta_og_type: "website"
-    meta_og_url: "https://tella.pages.dev"
-    meta_og_image: "https://raw.githubusercontent.com/opera7133/tella/master/images/tn.png"
-    meta_og_description: "A Hugo Theme for OSSProject, Companies, Organization..."
+    meta_og_url: "https://hindustancementpipe.github.io"
+    meta_og_image: "https://github.com/hindustancementpipe/hindustancementpipe.github.io/blob/main/static/android-chrome-512x512.png"
+    meta_og_description: "Explore durable RCC pipe products from Hindustan Cement Pipe Co., trusted since 1965."
+
+
 
 
 menu:
@@ -65,8 +67,8 @@ menu:
       url: "/"
       weight: 1
 
-    - name: "Github"
-      url: "https://github.com/opera7133/tella"
-      pre: "<i class='icon-github text-2xl'></i>"
+    - name: "Whatsapp"
+      url: "https://wa.me/919246363852"
+      pre: "<i class='fab fa-whatsapp text-2xl'></i>"
       weight: 2
 

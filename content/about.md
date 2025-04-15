@@ -3,23 +3,32 @@ title = "About"
 description = "Hugo, the world's fastest framework for building websites"
 date = "2019-02-28"
 aliases = ["about-us", "about-hugo", "contact"]
-author = "Hugo Authors"
+author = "Shaimak Reddy"
 +++
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+Established in 1965, Hindustan Cement Pipe Co. has been at the forefront of manufacturing high-quality RCC Hume Pipes in Hyderabad.
 
-Hugo makes use of a variety of open source projects including:
+## Our History
+Hindustan Cement Pipe Co. was founded in 1965 by V. Raghupathi Reddy with a vision to provide high-quality concrete pipes for infrastructure development in the region. Starting with a small manufacturing unit in Hyderabad, we have grown to become one of the trusted suppliers of RCC Hume pipes in Telangana.
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+Through decades of consistent quality and reliability, we have established ourselves as pioneers in manufacturing R.C.C. Spigot & Socket and Plain Ended Pipes of all Classes & Sizes.
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
+Today, under the leadership of Sarvotham Reddy, we continue to maintain our commitment to quality and customer satisfaction, serving various government and private sector projects across the region.
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
+## Our Journey
+### Founding Year
+Hindustan Cement Pipe Co. was established by V. Raghupathi Reddy in Uppal, Hyderabad as a small manufacturing unit for concrete pipes.
 
-Websites built with Hugo are extremely fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
+### 1980s
+Expansion
+The company expanded its production capacity and introduced new pipe classes to meet growing infrastructure demands.
 
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+### 2000s
+**Modernization**
+
+Adopted modern manufacturing techniques and quality control processes to enhance product reliability and durability.
+
+### Present
+**Continued Excellence**
+
+Under the leadership of Sarvotham Reddy, we continue to serve the region with premium quality RCC Hume pipes, maintaining our reputation as "A Quality House for Quality Products."

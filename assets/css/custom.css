@@ -1,0 +1,30 @@
+/* ===== Contact Page Styling ===== */
+
+.contact-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+
+.contact-icon {
+  font-size: 1.1rem; /* Adjust icon size */
+  min-width: 1.5rem; /* Keeps spacing consistent */
+  padding-top: 3px;  /* Aligns with top of multi-line text */
+  line-height: 1;
+}
+
+/* Specific color overrides if needed */
+.contact-icon.map { color: #dc2626; }       /* red-600 */
+.contact-icon.phone { color: #2563eb; }     /* blue-600 */
+.contact-icon.mail { color: #16a34a; }      /* green-600 */
+.contact-icon.clock { color: #4b5563; }     /* gray-600 */
+.contact-icon.whatsapp { color: #22c55e; }  /* green-500 */
+
+/* Contact Info Block */
+.contact-info h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
