@@ -8,6 +8,7 @@
                 </a>
             </li>
             {{ end }}
+
             <!-- WhatsApp Button as list item -->
             <li class="p-2">
                 <a href="https://wa.me/919246363852" target="_blank"
@@ -19,7 +20,7 @@
         </ul>
     </div>
 
-    <nav class="flex items-center justify-between p-8 bg-opacity-100">
+    <nav class="flex items-center justify-between flex-wrap bg-opacity-100 p-8">
         <div class="flex items-center flex-shrink-0 text-xl text-grey-900 mr-6">
             <a href="{{ .Site.BaseURL }}" class="flex items-center">
                 <img alt="{{ .Site.Params.logo.alt }}"
@@ -32,7 +33,6 @@
             </a>
         </div>
 
-        <!-- Hamburger for mobile -->
         <div class="block lg:hidden">
             <div id="hamburgerbtn" class="flex cursor-pointer items-center w-14 h-10 py-2 rounded mopen">
                 <span class="top"></span>
@@ -41,7 +41,6 @@
             </div>
         </div>
 
-        <!-- Mobile Menu items -->
         <div class="hidden w-full block flex-grow lg:flex lg:items-center lg:w-auto" id="mobileMenu">
             <div class="text-lg lg:flex-grow">
             </div>
@@ -52,7 +51,7 @@
                     {{ .Name }}
                 </a>
                 {{ end }}
-                <!-- WhatsApp Button -->
+                <!-- WhatsApp Button (Visible on both Desktop and Mobile) -->
                 <a href="https://wa.me/919246363852" target="_blank"
                    class="inline-flex items-center justify-center px-4 py-2 mt-4 lg:mt-0 text-white text-sm font-semibold rounded-md shadow mr-4"
                    style="background-color: #075E54; text-decoration: none;">
