@@ -42,4 +42,7 @@ header nav {
 }
 
 /* Add any other styling as needed */
-
+/* Apply green color to WhatsApp icon */
+.feature-whatsapp .icon-whatsapp {
+  color: #25D366  /* WhatsApp Green */
+}

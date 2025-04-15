@@ -1,13 +1,13 @@
 {{ define "main" }}
-<div class="mx-auto my-10 max-w-6xl">
-    <div class="mx-3 col-span-3 lg:col-span-3 px-2">
-        <h1 class="title text-5xl mb-4">{{.Title}}</h1>
-        <div class="content py-1">{{.Content}}</div>
-        <div class="grid grid-cols-3 md:grid-cols-3 mb-2 gap-2">
-        {{ range .Pages.ByWeight }}
-        {{ .Render "summary" }}
-        {{ end }}
-        </div>
-    </div>
+<div class="mx-auto my-10 max-w-6xl px-4">
+  <h1 class="title text-5xl mb-4">{{ .Title }}</h1>
+  <div class="content prose lg:prose-xl mx-auto mb-10">{{ .Content }}</div>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    {{ range .Pages.ByWeight }}
+      {{ .Render "summary" }}
+    {{ end }}
+  </div>
 </div>
 {{ end }}
+

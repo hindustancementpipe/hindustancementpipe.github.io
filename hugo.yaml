@@ -37,6 +37,10 @@ params:
     meta_og_image: "https://github.com/hindustancementpipe/hindustancementpipe.github.io/blob/main/static/android-chrome-512x512.png"
     meta_og_description: "Explore durable RCC pipe products from Hindustan Cement Pipe Co., trusted since 1965."
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 
 
 
@@ -62,10 +66,10 @@ menu:
       url: "/contact/"
       weight: 4
 
-  footer:
-    - name: "Home"
-      url: "/"
-      weight: 1
+#  footer:
+#    - name: "Home"
+#      url: "/"
+#      weight: 10
 
 #    - name: "Whatsapp"
 #      url: "https://wa.me/919246363852"

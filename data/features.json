@@ -1,18 +1,18 @@
 [
   {
     "title": "Transport",
-    "description": "Transport provided all across India",
+    "description": "Transport provided all across Telangana",
     "icon": "fas fa-truck"
   },
   {
-    "title": "Certified",
-    "description": "Light weight and fast loading speed.",
-    "icon": "fas  fa-check-square"
+    "title": "Quality",
+    "description": "Committed to delivering the highest quality products with precision and reliability.",
+    "icon": "fas fa-shield-alt"
   },
   {
-    "title": "Github",
-    "description": "Please fork the Github repository and contribute to this theme!",
-    "icon": "icon-github",
-    "link": "https://github.com/opera7133/tella"
-  }
+  "title": "Request a Quote",
+  "description": "Get a quick estimate for your pipe requirements. Simply send us your project details.",
+  "icon": "fas fa-file-invoice"
+}
 ]
+
