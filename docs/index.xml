@@ -6,68 +6,33 @@
     <description>Recent content on HCP</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 23 Jun 2020 12:33:45 +1000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Example Product</title>
-      <link>http://localhost:1313/products/example-copy/</link>
-      <pubDate>Tue, 23 Jun 2020 12:33:45 +1000</pubDate>
-      <guid>http://localhost:1313/products/example-copy/</guid>
+      <title>RCC Pipes</title>
+      <link>http://localhost:1313/products/rcc/</link>
+      <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/rcc/</guid>
+      <description>&lt;p&gt;RCC Spun/Hume Pipes in NP2 and NP3 classes comes from 150 mm to 1200 mm diameter, both in plain end and spigot socket types. These pipes are mainly used for water supply, drainage, culverts, bridge works and industrial construction.&lt;/p&gt;&#xA;&lt;p&gt;Usage&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Water Drainage&lt;/li&gt;&#xA;&lt;li&gt;Waste Water&lt;/li&gt;&#xA;&lt;li&gt;Irrigation Purposes&lt;/li&gt;&#xA;&lt;li&gt;Culverts/ Sewers&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;For more information, contact us&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Collars</title>
+      <link>http://localhost:1313/products/collars/</link>
+      <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/collars/</guid>
       <description></description>
     </item>
     <item>
-      <title>Example Product</title>
-      <link>http://localhost:1313/products/example/</link>
-      <pubDate>Tue, 23 Jun 2020 12:33:45 +1000</pubDate>
-      <guid>http://localhost:1313/products/example/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Example Product</title>
-      <link>http://localhost:1313/products/two/</link>
-      <pubDate>Tue, 23 Jun 2020 12:33:45 +1000</pubDate>
-      <guid>http://localhost:1313/products/two/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Markdown Syntax Guide</title>
-      <link>http://localhost:1313/blog/markdown-syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/markdown-syntax/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Rich Content</title>
-      <link>http://localhost:1313/blog/rich-content/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/rich-content/</guid>
-      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Placeholder Text</title>
-      <link>http://localhost:1313/blog/placeholder-text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/placeholder-text/</guid>
-      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Math Typesetting</title>
-      <link>http://localhost:1313/blog/math-typesetting/</link>
-      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/math-typesetting/</guid>
-      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Emoji Support</title>
-      <link>http://localhost:1313/blog/emoji-support/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/emoji-support/</guid>
-      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+      <title>Septic Tanks</title>
+      <link>http://localhost:1313/products/septictanks/</link>
+      <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/septictanks/</guid>
+      <description>&lt;p&gt;These tanks are used where there is no availability of underground drainage facilities for flushed type of water closets.&lt;/p&gt;&#xA;&lt;p&gt;Certain anaerobic bacteria flourish in the absence of free oxygen and where humidity, darkness and warmth prevail. These bacteria convert human excreta into gaseous and liquefied state by certain biological and chemical actions.&lt;/p&gt;&#xA;&lt;p&gt;Heavier matter sinks down and forms “sludge” in a septic tank, the light matter forms a thick layer at the “scum” at the top surface. It is necessary that the layers of sludge and scum remain undisturbed. A septic tank must be initially filled with water, disinfection kills bacteria and obstructs the functioning of septic tanks.&lt;/p&gt;</description>
     </item>
     <item>
       <title>About</title>
       <link>http://localhost:1313/about/</link>
-      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
       <description>&lt;p&gt;Established in 1965, Hindustan Cement Pipe Co. has been at the forefront of manufacturing high-quality RCC Hume Pipes in Hyderabad.&lt;/p&gt;&#xA;&lt;h2 id=&#34;our-history&#34;&gt;Our History&lt;/h2&gt;&#xA;&lt;p&gt;Hindustan Cement Pipe Co. was founded in 1965 by V. Raghupathi Reddy with a vision to provide high-quality concrete pipes for infrastructure development in the region. Starting with a small manufacturing unit in Hyderabad, we have grown to become one of the trusted suppliers of RCC Hume pipes in Telangana.&lt;/p&gt;</description>
     </item>

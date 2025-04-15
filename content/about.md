@@ -1,8 +1,8 @@
 +++
 title = "About"
-description = "Hugo, the world's fastest framework for building websites"
-date = "2019-02-28"
-aliases = ["about-us", "about-hugo", "contact"]
+description = "Hindustan Cement Pipe Co. leading RCC pipe manufacturer in Hyderabad."
+date = "2025-04-15"
+aliases = ["about-us", "about-hcp", "contact"]
 author = "Shaimak Reddy"
 +++
 

@@ -6,28 +6,28 @@
     <description>Recent content in Products on HCP</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 23 Jun 2020 12:33:45 +1000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/products/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Example Product</title>
-      <link>http://localhost:1313/products/example-copy/</link>
-      <pubDate>Tue, 23 Jun 2020 12:33:45 +1000</pubDate>
-      <guid>http://localhost:1313/products/example-copy/</guid>
+      <title>RCC Pipes</title>
+      <link>http://localhost:1313/products/rcc/</link>
+      <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/rcc/</guid>
+      <description>&lt;p&gt;RCC Spun/Hume Pipes in NP2 and NP3 classes comes from 150 mm to 1200 mm diameter, both in plain end and spigot socket types. These pipes are mainly used for water supply, drainage, culverts, bridge works and industrial construction.&lt;/p&gt;&#xA;&lt;p&gt;Usage&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Water Drainage&lt;/li&gt;&#xA;&lt;li&gt;Waste Water&lt;/li&gt;&#xA;&lt;li&gt;Irrigation Purposes&lt;/li&gt;&#xA;&lt;li&gt;Culverts/ Sewers&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;For more information, contact us&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Collars</title>
+      <link>http://localhost:1313/products/collars/</link>
+      <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/collars/</guid>
       <description></description>
     </item>
     <item>
-      <title>Example Product</title>
-      <link>http://localhost:1313/products/example/</link>
-      <pubDate>Tue, 23 Jun 2020 12:33:45 +1000</pubDate>
-      <guid>http://localhost:1313/products/example/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Example Product</title>
-      <link>http://localhost:1313/products/two/</link>
-      <pubDate>Tue, 23 Jun 2020 12:33:45 +1000</pubDate>
-      <guid>http://localhost:1313/products/two/</guid>
-      <description></description>
+      <title>Septic Tanks</title>
+      <link>http://localhost:1313/products/septictanks/</link>
+      <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/septictanks/</guid>
+      <description>&lt;p&gt;These tanks are used where there is no availability of underground drainage facilities for flushed type of water closets.&lt;/p&gt;&#xA;&lt;p&gt;Certain anaerobic bacteria flourish in the absence of free oxygen and where humidity, darkness and warmth prevail. These bacteria convert human excreta into gaseous and liquefied state by certain biological and chemical actions.&lt;/p&gt;&#xA;&lt;p&gt;Heavier matter sinks down and forms “sludge” in a septic tank, the light matter forms a thick layer at the “scum” at the top surface. It is necessary that the layers of sludge and scum remain undisturbed. A septic tank must be initially filled with water, disinfection kills bacteria and obstructs the functioning of septic tanks.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
