@@ -1,0 +1,71 @@
+<header>
+    <!-- Fullscreen overlay menu (mobile) -->
+    <div id="overlay">
+        <ul class="text-center list-none text-white text-3xl">
+            {{ range .Site.Menus.main }}
+            <li class="p-2">
+                <a href="{{ .URL | safeURL }}">
+                    <span>{{ .Name }}</span>
+                </a>
+            </li>
+            {{ end }}
+            <!-- WhatsApp Button inside overlay -->
+            <li class="p-2">
+                <a href="https://wa.me/919246363852?text=Hi,%20I'd%20like%20to%20inquire%20about%20RCC%20pipes." target="_blank"
+                   class="inline-flex items-center justify-center px-4 py-2 text-white text-lg font-semibold rounded-md shadow"
+                   style="background-color: #075E54; text-decoration: none;">
+                  <i class="fab fa-whatsapp text-xl mr-2" style="color: white;"></i> WhatsApp
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="flex items-center justify-between p-4 sm:p-6 bg-opacity-100">
+        <!-- Logo & Text -->
+        <div class="flex items-center flex-shrink-0 text-grey-900 mr-4">
+            <a href="{{ .Site.BaseURL }}" class="flex items-center">
+                <!-- Logo image, smaller on mobile -->
+                <img alt="{{ .Site.Params.logo.alt }}"
+                     class="h-10 sm:h-14 mr-2 sm:mr-3"
+                     src="{{ .Site.Params.logo.main | relURL }}">
+                <!-- Logo text, smaller on mobile -->
+                <div class="flex flex-col leading-tight">
+                    <span class="text-base sm:text-xl font-semibold text-black">{{ .Site.Params.logo.text }}</span>
+                    <span class="text-xs sm:text-sm text-gray-700 -mt-1">Estd. 1965</span>
+                </div>
+            </a>
+        </div>
+
+        <!-- Hamburger Menu Button -->
+        <div class="block lg:hidden">
+            <div id="hamburgerbtn" class="flex cursor-pointer items-center w-6 h-4 py-1 rounded mopen">
+                <!-- Smaller lines for mobile hamburger -->
+                <span class="top w-4 h-0.5 bg-black mb-1"></span>
+                <span class="middle w-4 h-0.5 bg-black mb-1"></span>
+                <span class="bottom w-4 h-0.5 bg-black"></span>
+            </div>
+        </div>
+
+        <!-- Main Navigation Links -->
+        <div class="hidden w-full block flex-grow lg:flex lg:items-center lg:w-auto" id="mobileMenu">
+            <div class="text-lg lg:flex-grow">
+            </div>
+            <div class="text-lg">
+                {{ range .Site.Menus.main }}
+                <a href="{{ .URL | safeURL }}"
+                   class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
+                    {{ .Name }}
+                </a>
+                {{ end }}
+                <!-- WhatsApp Button -->
+                <a href="https://wa.me/919246363852" target="_blank"
+                   class="inline-flex items-center justify-center px-4 py-2 mt-4 lg:mt-0 text-white text-sm font-semibold rounded-md shadow mr-4"
+                   style="background-color: #075E54; text-decoration: none;">
+                  <i class="fab fa-whatsapp text-lg mr-2" style="color: white;"></i> WhatsApp
+                </a>
+            </div>
+        </div>
+    </nav>
+</header>
+

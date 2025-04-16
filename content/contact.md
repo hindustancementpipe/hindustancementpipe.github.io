@@ -60,7 +60,7 @@ markup: html
     class="inline-flex items-center px-4 py-2 text-white text-sm font-semibold rounded-md shadow transition no-underline"
     style="background-color: #075E54; text-decoration: none;"
   >
-    <i class="fab fa-whatsapp text-lg mr-2" style="text-decoration: none;"></i> Whatsapp
+    <i class="fab fa-whatsapp text-lg mr-2" style="text-decoration: none;"></i> WhatsApp
   </a>
 </div>
 

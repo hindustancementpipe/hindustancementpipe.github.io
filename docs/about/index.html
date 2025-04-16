@@ -48,96 +48,64 @@
 
 <body class="flex flex-col min-h-screen">
   <main class="flex-grow"><header>
+  
+  <nav class="w-full p-4 sm:px-6 sm:py-4 bg-opacity-100">
     
-    <div id="overlay">
-        <ul class="text-center list-none text-white text-3xl">
-            
-            <li class="p-2">
-                <a href="/products/">
-                    <span>Products</span>
-                </a>
-            </li>
-            
-            <li class="p-2">
-                <a href="/about/">
-                    <span>About</span>
-                </a>
-            </li>
-            
-            <li class="p-2">
-                <a href="/contact/">
-                    <span>Contact</span>
-                </a>
-            </li>
-            
-            
-            <li class="p-2">
-                <a href="https://wa.me/919246363852?text=Hi,%20I'd%20like%20to%20inquire%20about%20RCC%20pipes." target="_blank"
-                   class="inline-flex items-center justify-center px-4 py-2 text-white text-lg font-semibold rounded-md shadow"
-                   style="background-color: #075E54; text-decoration: none;">
-                  <i class="fab fa-whatsapp text-xl mr-2" style="color: white;"></i> WhatsApp
-                </a>
-            </li>
-        </ul>
+    
+    <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between">
+      
+      
+      <div class="flex items-center justify-between w-full sm:w-auto">
+        <a href="https://hindustancementpipe.github.io/" class="flex items-center">
+          <img alt="Hindustan Cement Pipe Logo"
+               class="h-10 sm:h-14 mr-2 sm:mr-3"
+               src="/img/logo/logo.svg">
+          <div class="flex flex-col leading-tight">
+            <span class="text-base sm:text-xl font-semibold text-black">Hindustan Cement Pipe Co.</span>
+            <span class="text-xs sm:text-sm text-gray-700 -mt-1">Estd. 1965</span>
+          </div>
+        </a>
+
+        
+        <div class="sm:hidden ml-auto">
+          <a href="https://wa.me/919246363852?text=Hi,%20I'd%20like%20to%20inquire%20about%20RCC%20pipes." target="_blank"
+             class="inline-flex items-center justify-center px-3 py-2 text-white text-sm font-semibold rounded-md shadow"
+             style="background-color: #075E54;">
+            <i class="fab fa-whatsapp text-lg mr-1" style="color: white;"></i> WhatsApp
+          </a>
+        </div>
+      </div>
+
+      
+      <div class="hidden sm:flex sm:items-center sm:gap-8 sm:ml-auto">
+        
+        <a href="/products/" class="text-black hover:opacity-60 whitespace-nowrap">Products</a>
+        
+        <a href="/about/" class="text-black hover:opacity-60 whitespace-nowrap">About</a>
+        
+        <a href="/contact/" class="text-black hover:opacity-60 whitespace-nowrap">Contact</a>
+        
+
+        <a href="https://wa.me/919246363852?text=Hi,%20I'd%20like%20to%20inquire%20about%20RCC%20pipes." target="_blank"
+           class="inline-flex items-center justify-center px-4 py-2 text-white text-sm font-semibold rounded-md shadow"
+           style="background-color: #075E54;">
+          <i class="fab fa-whatsapp text-lg mr-2" style="color: white;"></i> WhatsApp
+        </a>
+      </div>
     </div>
 
     
-    <nav class="flex items-center justify-between p-4 sm:p-6 bg-opacity-100">
-        
-        <div class="flex items-center flex-shrink-0 text-grey-900 mr-4">
-            <a href="https://hindustancementpipe.github.io/" class="flex items-center">
-                
-                <img alt="Hindustan Cement Pipe Logo"
-                     class="h-10 sm:h-14 mr-2 sm:mr-3"
-                     src="/img/logo/logo.svg">
-                
-                <div class="flex flex-col leading-tight">
-                    <span class="text-base sm:text-xl font-semibold text-black">Hindustan Cement Pipe Co.</span>
-                    <span class="text-xs sm:text-sm text-gray-700 -mt-1">Estd. 1965</span>
-                </div>
-            </a>
-        </div>
+    <div class="mt-4 flex flex-wrap justify-left font-underline gap-4 text-lg sm:hidden">
+      
+      <a href="/products/" class="text-black hover:opacity-60">Products</a>
+      
+      <a href="/about/" class="text-black hover:opacity-60">About</a>
+      
+      <a href="/contact/" class="text-black hover:opacity-60">Contact</a>
+      
+    </div>
 
-        
-        <div class="block lg:hidden">
-            <div id="hamburgerbtn" class="flex cursor-pointer items-center w-6 h-4 py-1 rounded mopen">
-                
-                <span class="top w-2 h-0.5 bg-black mb-1"></span>
-                <span class="middle w-2 h-0.5 bg-black mb-1"></span>
-                <span class="bottom w-2 h-0.5 bg-black"></span>
-            </div>
-        </div>
-
-        
-        <div class="hidden w-full block flex-grow lg:flex lg:items-center lg:w-auto" id="mobileMenu">
-            <div class="text-lg lg:flex-grow">
-            </div>
-            <div class="text-lg">
-                
-                <a href="/products/"
-                   class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
-                    Products
-                </a>
-                
-                <a href="/about/"
-                   class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
-                    About
-                </a>
-                
-                <a href="/contact/"
-                   class="duration-200 block mt-4 lg:inline-block lg:mt-0 text-black hover:opacity-60 mr-8">
-                    Contact
-                </a>
-                
-                
-                <a href="https://wa.me/919246363852" target="_blank"
-                   class="inline-flex items-center justify-center px-4 py-2 mt-4 lg:mt-0 text-white text-sm font-semibold rounded-md shadow mr-4"
-                   style="background-color: #075E54; text-decoration: none;">
-                  <i class="fab fa-whatsapp text-lg mr-2" style="color: white;"></i> WhatsApp
-                </a>
-            </div>
-        </div>
-    </nav>
+  </nav>
 </header>
 
 <div class="scroll-top rounded-full">

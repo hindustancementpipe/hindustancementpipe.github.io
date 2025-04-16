@@ -42,7 +42,7 @@
     </div>
 
     <!-- Mobile Menu (Centered Below) -->
-    <div class="mt-4 flex flex-wrap justify-left font-underline gap-4 text-lg sm:hidden">
+    <div class="mt-4 flex flex-wrap justify-center gap-4 text-lg sm:hidden">
       {{ range .Site.Menus.main }}
       <a href="{{ .URL | safeURL }}" class="text-black hover:opacity-60">{{ .Name }}</a>
       {{ end }}
