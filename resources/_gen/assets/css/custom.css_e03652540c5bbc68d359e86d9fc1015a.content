@@ -1,0 +1,48 @@
+/* Ensure the header content stays aligned on mobile */
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap; /* Prevent wrapping on mobile */
+}
+
+/* Make the hamburger and logo items stay on one line on mobile */
+@media (max-width: 768px) {
+    header nav {
+        flex-direction: row;
+    }
+
+    .flex.items-center {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    #hamburgerbtn {
+        margin-left: auto; /* Move hamburger to the right */
+    }
+
+    /* Ensuring logo text and logo image stay aligned */
+    header nav .flex {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    header nav .flex div {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* Optional: Adjust the size of the hamburger button */
+#hamburgerbtn {
+    width: 30px;
+    height: 25px;
+}
+
+/* Add any other styling as needed */
+/* Apply green color to WhatsApp icon */
+.feature-whatsapp .icon-whatsapp {
+  color: #25D366  /* WhatsApp Green */
+}
