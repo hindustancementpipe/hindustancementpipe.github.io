@@ -66,11 +66,19 @@ menu:
       url: "/contact/"
       weight: 4
 
-#  footer:
-#    - name: "Home"
-#      url: "/"
-#      weight: 10
-
+  footer:
+    - name: "Home"
+      url: "/"
+      weight: 1
+    - name: "Products"
+      url: "/products/"
+      weight: 2
+    - name: "About"
+      url: "/about"
+      weight: 3
+    - name: "Contact"
+      url: "/about"
+      weight: 4
 #    - name: "Whatsapp"
 #      url: "https://wa.me/919246363852"
 #      pre: "<i class='fab fa-whatsapp text-2xl'></i>"
