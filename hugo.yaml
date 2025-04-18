@@ -8,7 +8,7 @@ enableInlineShortcodes: true
 theme: "tella"
 enableRobotsTXT: true
 # hasCJKLanguage: true
-# googleAnalytics: "UA-12345678-1"
+googleAnalytics: "G-X4XPYT9ES5"
 # disqusShortname: ""
 
 params:
