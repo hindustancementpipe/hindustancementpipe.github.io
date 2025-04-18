@@ -1,5 +1,5 @@
 publishDir: docs
-baseURL: "https://hindustancementpipe.github.io/"
+baseURL: "https://hindustancementpipe.com/"
 title: "HCP"
 author: "Shaimak Reddy"
 languageCode: "en"
