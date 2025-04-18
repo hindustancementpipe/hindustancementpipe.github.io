@@ -1,23 +1,28 @@
 <div class="swiper-container">
-    <div class="swiper-wrapper">
-        {{ range .Site.Data.slide }}
-        <div class="swiper-slide relative">
-            <!-- Use object-contain to prevent cropping on mobile -->
-            <img src="{{ .image }}" alt="{{ .alt }}" class="h-full w-auto object-contain sm:object-cover">
+  <div class="swiper-wrapper">
+    {{ range .Site.Data.slide }}
+    <div class="swiper-slide relative">
+      
+      <!-- Mobile Image -->
+      <img src="{{ .imageMobile }}" alt="{{ .alt }}" class="block sm:hidden h-full w-auto object-contain">
 
-            <!-- Light Black Overlay -->
-            <div class="absolute inset-0 bg-black bg-opacity-30"></div>
+      <!-- Desktop Image -->
+      <img src="{{ .imageDesktop }}" alt="{{ .alt }}" class="hidden sm:block h-full w-full object-cover">
 
-            <!-- Centered Slide Text -->
-            <div class="absolute inset-0 flex items-center justify-center text-center z-10 px-4 sm:px-8">
-                <h1 class="text-xl md:text-2xl font-bold {{ or .color "text-white" }} tracking-wide">
-                    {{ .title }}
-                </h1>
-            </div>
-        </div>
-        {{ end }}
+      <!-- Light Black Overlay -->
+      <div class="absolute inset-0 bg-black bg-opacity-30"></div>
+
+      <!-- Centered Slide Text -->
+      <div class="absolute inset-0 flex items-center justify-center text-center z-10 px-4 sm:px-8">
+        <h1 class="text-xl md:text-2xl font-bold {{ or .color "text-white" }} tracking-wide">
+          {{ .title }}
+        </h1>
+      </div>
     </div>
-    <div class="swiper-button-prev hidden sm:block"></div>
-    <div class="swiper-button-next hidden sm:block"></div>
+    {{ end }}
+  </div>
+
+  <div class="swiper-button-prev hidden sm:block"></div>
+  <div class="swiper-button-next hidden sm:block"></div>
 </div>
 

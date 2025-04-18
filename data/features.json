@@ -2,17 +2,20 @@
   {
     "title": "Transport",
     "description": "Transport provided all across Telangana",
-    "icon": "fas fa-truck"
+    "icon": "fas fa-truck",
+    "link": "/transport"
   },
   {
     "title": "Quality",
     "description": "Committed to delivering the highest quality products with precision and reliability.",
-    "icon": "fas fa-shield-alt"
+    "icon": "fas fa-shield-alt",
+    "link": "/quality"
   },
   {
   "title": "Request a Quote",
   "description": "Get a quick estimate for your pipe requirements. Simply send us your project details.",
-  "icon": "fas fa-file-invoice"
+  "icon": "fas fa-file-invoice",
+  "link": "/contact"
 }
 ]
 

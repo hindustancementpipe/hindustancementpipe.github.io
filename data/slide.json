@@ -1,15 +1,18 @@
 [
   {
     "title": "A Quality House for Quality Products",
-    "image": "img/slide/slide01.jpg"
-  },
-  {
-    "title": "RCC Spigot & Socket, and Plain-Ended Pipes – All Classes and Sizes",
-    "image": "img/slide/slide02.jpg"
+    "imageMobile": "img/slide/slide01m.jpg",
+    "imageDesktop": "img/slide/slide01.jpg"
   },
   {
     "title": "Transport provided all across Telangana",
-    "image": "img/slide/slide03.jpg"
+    "imageMobile": "img/slide/slide02m.jpg",
+    "imageDesktop": "img/slide/slide02.jpg"
+  },
+  {
+    "title": "RCC Spigot & Socket, and Plain-Ended Pipes – All Classes and Sizes",
+    "imageMobile": "img/slide/slide03m.jpg",
+    "imageDesktop": "img/slide/slide03.jpg"
   }
 ]
 

@@ -46,3 +46,10 @@ header nav {
 .feature-whatsapp .icon-whatsapp {
   color: #25D366  /* WhatsApp Green */
 }
+
+/*want to hide the scroll button on mobile */
+.scroll-top {
+    display: none !important;
+}
+
+
